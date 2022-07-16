@@ -111,7 +111,7 @@ public class AppointmentController implements Initializable {
 
     /**Function that handles the sign-out menu item click event. Changes the stage to the login screen. */
     @FXML
-    public void signOut(ActionEvent e) throws IOException { stage.changeWindow(root, "view/main"); }
+    public void signOut(ActionEvent e) throws IOException { stage.changeWindow(root, "main"); }
 
     /**Event handler for clear button press. Calls the clearFields function to reset fields to default values*/
     @FXML

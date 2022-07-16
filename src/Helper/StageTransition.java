@@ -18,7 +18,7 @@ public class StageTransition {
         Scene scene = new Scene(parent);
         Stage stage = (Stage) root.getScene().getWindow();
 
-        if (destination != "view/main") { stage.setTitle("ScheduleBuddy - " + destination); }
+        if (destination != "main") { stage.setTitle("ScheduleBuddy - " + destination); }
         else { stage.setTitle("ScheduleBuddy"); }
 
         stage.setScene(scene);

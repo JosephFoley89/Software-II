@@ -122,7 +122,7 @@ public class ReportController implements Initializable {
 
     /**Function that handles the sign-out menu item click event. Changes the stage to the login screen. */
     @FXML
-    public void signOut(ActionEvent e) throws IOException { stage.changeWindow(root, "view/main"); }
+    public void signOut(ActionEvent e) throws IOException { stage.changeWindow(root, "main"); }
 
     /**This function handles the filter combobox change event and updates the table*/
     @FXML
